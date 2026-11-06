@@ -1,0 +1,17 @@
+# Dữ liệu (tải lại bằng download_binance.py + build_dataset.py)
+data/
+*.parquet
+*.zip
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Bí mật — KHÔNG BAO GIỜ commit API key
+.env
+.env.*
+*.key
+secrets*.json
+
+.DS_Store
